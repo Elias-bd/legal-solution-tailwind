@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- google fonts CDN  -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap"
+        rel="stylesheet">
+
+    <!-- daisyUI CDN  -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- font awesome CDN  -->
+
+    <script src="https://kit.fontawesome.com/5c09957b7e.js" crossorigin="anonymous"></script>
+
+    <!-- Css for Fonts  -->
+
+    <style>
+        .eb-garamond-font {
+            font-family: "EB Garamond", serif;
+        }
+    </style>
+
+    <!-- tailwind CDN -->
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                        'btn-bg': '#B68C5A',
+                    }
+                }
+            }
+        }
+    </script
+
+</head>
+
+<body class="eb-garamond-font">
+    <header class="w-[85%] md:container mx-auto">
+
+        <div class="navbar bg-base-100">
+            <div class="navbar-start">
+              <img class="w-[34px]" src="images/business.png" alt="">
+              <a class="ml-2 font-extrabold text-2xl">Justice</a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal px-1">
+                <li><a>Home </a></li>
+                <li><a>Services <i class="fa-solid fa-greater-than"></i></a></li>
+                <li><a>Cases <i class="fa-solid fa-greater-than"></i></a></li>
+                <li><a>Blog <i class="fa-solid fa-greater-than"></i></a></li>
+                <li><a>Contact Us <i class="fa-solid fa-greater-than"></i></a></li>
+              </ul>
+            </div>
+            <div class="navbar-end">
+                <div class=" md:flex">
+                    <button class="btn bg-btn-bg hidden md:block">Button</button>
+                    <div class="dropdown">
+                      <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          class="h-5 w-5"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          stroke="currentColor">
+                          <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="2"
+                            d="M4 6h16M4 12h8m-8 6h16" />
+                        </svg>
+                      </div>
+                      <ul
+                        tabindex="0"
+                        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-24 p-2 shadow">
+                        <li><a>Home</a></li>
+                        <li><a>Services</a></li>
+                        <li><a>Cases</a></li>
+                        <li><a>Blog</a></li>
+                        <li><a>Contact Us</a></li>
+                      </ul>
+                    </div>
+                    
+                  </div>
+              
+            </div>
+          </div>
+        
+
+    </header>
+
+    <main>
+
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+
+</html>
